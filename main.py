@@ -1,8 +1,8 @@
 from random import choices
 
-f=open("data.txt")
+f=open("data.txt",encoding="cp1251")
 s=f.read()
-l=s.split(" ")x
+l=s.split(" ")
 d = {}
 
 for i in range(len(l)-1):
